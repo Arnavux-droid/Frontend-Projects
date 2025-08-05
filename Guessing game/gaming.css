@@ -1,0 +1,58 @@
+*{
+   margin: 0;
+   padding: 0; 
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: url(2086970.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+body h1{
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 300;
+}
+.btn button{
+    display:inline-block;
+    align-items: center;
+    margin: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.container-fluid{
+    background: black;
+}
+.container-fluid a{
+    color: white;
+    display: inline-block;
+}
+.container-fluid a:hover{
+    text-shadow:5px 5px 10px cyan;
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: rotate3d(180deg);
+}
+
+.spin button{
+    margin-left: 560px;
+}
+.heading h1:hover{
+    color: red;
+    text-shadow:10px 10px 20px yellow;
+    transition: 0.5s;
+}
+
+.form-text p{
+    color: white;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: medium;
+}
+#inputPassword5{
+    width: 30%;
+    margin: auto;
+}
